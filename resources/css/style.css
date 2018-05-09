@@ -16,9 +16,10 @@ h4 {
 a {
   color: white;
   font-weight: normal;
+  font-size: 18px;
 }
 
-nav {
+.header nav {
   background-image: url(../images/the-flatiron-building.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -40,7 +41,21 @@ p{
 
 #NY {
   background-image: url(../images/the-flatiron-building.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   font-size: 23px;
   font-weight: bold;
   color: white;
+}
+
+.footer nav {
+  text-align: left;
+  font-weight: normal;
+  background-color: dimgray;
+  color: white;
+}
+
+.footer p {
+  font-size: 11px;
+  font-weight: normal;
 }
